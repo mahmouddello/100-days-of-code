@@ -1,0 +1,5 @@
+Flask WTForms
+Forms Validation
+Template Inheritance with and without modification (delete, update, adding)
+Jinja Syntax
+Bootstrap-Flask Supports WTForms

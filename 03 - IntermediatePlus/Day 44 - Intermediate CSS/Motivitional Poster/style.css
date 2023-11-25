@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  .bruh {
+    margin: 10px;
+  }
+
+  .bruh{
+    color: white;
+  }
+
+  #image{
+    border: 5px solid white;
+  }

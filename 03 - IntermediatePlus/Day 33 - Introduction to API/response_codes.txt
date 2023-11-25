@@ -1,0 +1,5 @@
+1XX: Hold On (Working on it)
+2XX: Here You Go (Success)
+3XX: Go Away
+4XX: You screwed up, and the thing you're looking for may doesn't exist
+5XX: Server is Down or some other issue

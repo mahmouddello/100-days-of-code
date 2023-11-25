@@ -1,0 +1,21 @@
+1- Add art.
+
+2- Generate a random account from the game data.
+
+3- Format account data into printable format.
+
+4- Ask user for a guess.
+
+5- Check if user is correct.
+    5.1- Get follower count.
+    5.2- If Statement
+
+6- Feedback.
+
+7- Score Keeping.
+
+8- Make game repeatable.
+
+9- Make B become the next A.
+
+

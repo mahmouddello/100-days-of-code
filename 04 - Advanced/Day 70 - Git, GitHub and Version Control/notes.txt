@@ -1,0 +1,9 @@
+Lesson content:
+1) What is Git and GitHub?
+2) Basic Git Commands:
+(git init, git add <file_name> or "." to add all, git commit -m "commit message", git remote add origin <remote_url>,
+git push -u origin <branch_name>)
+3) Branching and merging: (git branch <branch_name>: creates a new branch. git merge <branch_name>: merges the selected
+branch to the current branch, error may occur when merging [Merge Conflicts])
+4) Cloning remote repositories: Make a local copy of remote repository by running (git clone <remote_url>)
+5) Pull Request

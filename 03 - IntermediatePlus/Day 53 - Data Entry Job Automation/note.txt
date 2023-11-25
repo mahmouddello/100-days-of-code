@@ -1,0 +1,2 @@
+I skipped this project because "Zillow" requires a Captcha,
+and this is unachievable with automating.

@@ -1,0 +1,19 @@
+1- 'pass' Keyword : When we create a class or a function in Python and we dont have anything in the class or the function,
+it will give an error because Python expect indentation after creating a class or function; to solve this problem
+We use a keyword in Python called 'pass' (Which it means dont mind me now, continue to the next line.)
+--------------------------------------
+2- PascalCase : Every first letter of a word is Capitalized (ex. CarCamshaftPulley)
+3- camelCase : Difference between camelCasing and PascalCase is that first word in camelCasing is all lower case.
+4- snake_case : All the words are lower case but they are seperated with a an underscore (snake_game)
+---------------------------------------
+5- Constructor : It's a part of the blueprint that allows us to specify what should happen when we create an object,
+in programming this is also known as "initialize".
+5.1- 'self' Keyword: It means the actual object being created and initialised
+5.2- Parameters in the (__init__) Constructor : We can add many parameters as we wusg and this parameters gonna be
+passed in when an object is created.
+5.3 Benefit of the Constructor : More efficient when we create too many objects in the Future.
+5.4 Not all attributes should be initialised : Suppose you're creating a new instagram account; the instagram account
+has information like username, userid and so on... every instagram account start with 0 followers, imagine if we pass
+the followers account of every new account created every single time! it's non sense. The solution for there problem
+that we can provide default value in the constructor with every new account created without setting the attribute or
+the followers count every time.

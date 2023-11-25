@@ -1,0 +1,8 @@
+Create a Spotify Playlist using the Musical Time Machine
+
+We are gonna use the following tasks:
+
+1) Web Scrapping the BillBoard Hot 100 by a date of your choice
+2) Use Spotify Web Api to search for songs in Spotify
+3) Add each song we found to the playlist with name "{date} BillBoard Hot 100"
+

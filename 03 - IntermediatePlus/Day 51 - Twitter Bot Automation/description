@@ -1,0 +1,3 @@
+In this project we will use selenium and get our
+internet speed from "https://speedtest.net" then posting a twitter post with mentioning our internet
+service provider complaining about the internet speed we are getting (in case of speed is lower than we expect)

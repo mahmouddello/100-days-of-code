@@ -1,0 +1,14 @@
+Explained how the snake move after adding a new body part :
+
+1 - When the snake gets extended, a new segment is added to the existing list of segments of the snake.
+At the start this new segment will have, in fact, the same position as the previous last segment.
+
+2 - Then, the move() method of Snake is called and in the for-loop each segment will move to a new position.
+The new segment (which is now the last segment in the list) will not move
+(since it will have the same position as the former last segment).
+But the former last segment, which is now the second to last segment,
+will move to the position of the third to last segment.
+
+3 - So the new segment, which is now the last segment,
+will have a different position than the second to last segment (formerly last segment),
+which means that they will not appear on top of each other.

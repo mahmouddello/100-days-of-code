@@ -1,0 +1,8 @@
+1 - Create the Screen
+2 - Create and move a paddle
+3 - Create another paddle
+4 - Create the ball and make it move
+5 - Detect collision with bounce and wall
+6 - Detect collision with paddle
+7 - Detect when paddle missing
+8 - Detect Players scores

@@ -1,0 +1,29 @@
+<!--    What is not well explained in this lesson, is this:-->
+<!--Using super() is additive: your child html file inherits the base.html block (in this case the styling),
+and your denied.html styling block ADDS to the styling block inherited from base.html.
+Result: purple background, red h1.-->
+<!--NOT using super() means that your child (denied.html) styling block REPLACES the styling block
+inherited from the parent (base.html).  Result: no background configured, and red h1.-->
+<!--Summary:-->
+<!--If you want your child html file's block to completely replace a parent file's block,
+don't use super().  If you want your child html file's block to ADD to the block you're inheriting from the parent html file, use super().-->
+{% extends "base.html" %}
+<style>
+
+    {% block styling %}
+        {{super()}}
+        h1 {
+            color: red;
+        }
+    {% endblock %}
+</style>
+<body>
+{% block content %}
+    <div class="container">
+        <h1>Access Denied </h1>
+        <iframe src="https://giphy.com/embed/1xeVd1vr43nHO" width="480" height="271" frameBorder="0" class="giphy-embed"
+                allowFullScreen></iframe>
+        <p><a href="https://giphy.com/gifs/cheezburger-funny-dog-fails-1xeVd1vr43nHO">via GIPHY</a></p>
+    </div>
+{% endblock %}
+</body>

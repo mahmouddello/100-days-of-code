@@ -1,0 +1,20 @@
+1 - print the logo of game
+
+2 - Get first data and second data Accounts using random module from the 'data' list
+
+3 - format printing of first account data
+
+4 - print 'VS' art
+
+5 - format printing of second account data
+
+6 - Take a guess from the user "Which account has more followers? A or B"
+
+7 - Compare followers between both account and check if the user answer points to the correct account and Feed back
+
+8 - Keep tracking of the score, correct answer (increase score by 1) else end the game by displaying the current score
+
+9 - Make the game repeatable
+
+10 - if the user goes to next guess , Make first account data = second account data. Then take second account data as a
+random again from the 'data' list from get_data file

@@ -1,0 +1,5 @@
+CSS Selector: it is the part that selects the html in order to apply which ever rules go in between the curly braces
+Types:
+1 - Tag Selector: Symbol -> Tag
+2 - Class Selector: Symbol (.red-text) is the (.) [dot]
+3 - ID Selector: Hashtag (#)

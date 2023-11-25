@@ -1,0 +1,2 @@
+On Deployment, We should use WSGI Server. One of the providers is a module called 'gunicorn'
+

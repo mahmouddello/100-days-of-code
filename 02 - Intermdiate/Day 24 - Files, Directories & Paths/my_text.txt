@@ -1,0 +1,3 @@
+Hello, my name is Mahmoud!
+I am 20 years old.
+We write to this file through Python Script
