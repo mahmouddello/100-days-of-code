@@ -2,7 +2,7 @@
 
 ## Introduction
 This repository contains my progress of AppBrewery's Python Bootcamp
-course hosted on Udemy.
+course hosted on [Udemy](https://www.udemy.com/course/100-days-of-code/).
 All rights of topics, projects, and content are reserved to <a href="https://appbrewery.com/">App Brewery</a>.
 
 > [!IMPORTANT]
