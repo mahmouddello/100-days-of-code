@@ -18,7 +18,7 @@ All rights of topics, projects, and content are reserved to <a href="https://app
 1) Clone the repository via `git clone https://github.com/mahmouddello/100-days-of-code.git`
 2) Change your directory to go inside repo's location `cd path/to/repository`.
 3) Install the required models and packages via `pip install -r requirements.txt`
-4) Use your favourite IDE to view the files; e.g., Pycharm `pycharm ./`
+4) Use your favourite IDE to view the files; e.g., Pycharm `pycharm ./`, VSCode `code ./`.
 
 <hr>
 
