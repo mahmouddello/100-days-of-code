@@ -5,10 +5,9 @@ This repository contains my progress of AppBrewery's Python Bootcamp
 course hosted on Udemy.
 All rights of topics, projects, and content are reserved to <a href="https://appbrewery.com/">App Brewery</a>.
 
-<blockquote style="border-left: 4px solid #5B34DA; padding: 0.5em; background-color: #f5f2fa; color: #5B34DA;">
-  <p><strong>Important</strong></p>
-  <p>The codes in the repository work correctly by <b>September 2023</b>.</p>
-</blockquote>
+> [!IMPORTANT]
+> The codes in the repository work correctly by **September 2023**.
+
 
 ## Things to know
 * Some days skipped due to a project's being out of date.
