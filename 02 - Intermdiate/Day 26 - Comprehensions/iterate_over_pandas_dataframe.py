@@ -7,7 +7,6 @@ students_dict = {
 
 for key in students_dict:
     print(f"{key} : {students_dict[key]}")
-print("-" * 25)
 
 # OR
 
@@ -23,7 +22,7 @@ for key, value in df.items():
     print(value)
 print("-" * 25)
 # But this is looping over columns only. Pandas provide a loop function to loop over rows:
-# iterrows(): Pandas built-in function allows us to iterate over the rows of the dataframe.
+# iterrows(): Pandas built-in function allows us to iterate over the rows of the dataframe
 
 for index, row in df.iterrows():
     print(row.students)  # or we can print the scores of students
