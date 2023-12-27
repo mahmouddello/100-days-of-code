@@ -30,6 +30,10 @@ class Book(db.Model):
 
 with app.app_context():
     db.create_all()
+
+
+@app.route("/")
+def index():
     all_books = Book.query.all()
     for book_data in all_books:
         data = {
@@ -39,10 +43,6 @@ with app.app_context():
             "rating": book_data.rating
         }
         books.append(data)
-
-
-@app.route("/")
-def index():
     return render_template("index.html", books=books)
 
 
@@ -72,4 +72,4 @@ def edit():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
