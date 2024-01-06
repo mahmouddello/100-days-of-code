@@ -2,19 +2,6 @@ import random
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 
-'''
-Install the required packages first: 
-Open the Terminal in PyCharm (bottom left). 
-
-On Windows type:
-python -m pip install -r requirements.txt
-
-On MacOS type:
-pip3 install -r requirements.txt
-
-This will install the packages from requirements.txt for this project.
-'''
-
 app = Flask(__name__)
 
 ## Connect to Database
@@ -43,7 +30,7 @@ class Cafe(db.Model):
         # Loop through each column in the data record
         for column in self.__table__.columns:
             # Create a new dictionary entry;
-            # where the key is the name of the column
+            # where the key is the name of the column,
             # and the value is the value of the column
             if column.name == "id":
                 pass
