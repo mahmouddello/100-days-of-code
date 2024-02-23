@@ -132,6 +132,7 @@ pip-selfcheck.json
 
 Python Bootcamp Resource & PDF
 
-
+# SQLite Instances
+**/instance
 
 # End of https://www.toptal.com/developers/gitignore/api/dotenv,venv,pycharm+all,visualstudiocode
