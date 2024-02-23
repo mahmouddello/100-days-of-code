@@ -6,7 +6,7 @@ course hosted on [Udemy](https://www.udemy.com/course/100-days-of-code/).
 All rights of topics, projects, and content are reserved to <a href="https://appbrewery.com/">App Brewery</a>.
 
 > [!IMPORTANT]
-> The codes in the repository work correctly by **September 2023**.
+> The codes in the repository work correctly by **February 2024**.
 
 
 ## Things to know
