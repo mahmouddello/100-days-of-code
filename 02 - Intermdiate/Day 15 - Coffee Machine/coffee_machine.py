@@ -40,15 +40,15 @@ def is_transaction_successful(total, drink_cost):
         return False
 
 
-def makeCoffee(drink_name, order_ingredients):
+def make_coffee(drink_name, order_ingredients):
     for item in order_ingredients:
         resources[item] -= order_ingredients[item]
 
     print(f"Here is your {drink_name}! Have a nice day.")
 
 
-machine_isRunning = True
-while machine_isRunning:
+machine_is_running = True
+while machine_is_running:
     choice = input("What would you like? (espresso/latte/cappuccino): ")
     if choice == 'off':
         machine_isRunning = False
@@ -64,4 +64,4 @@ while machine_isRunning:
         if is_resources_sufficient(drink['ingredients']):
             money = process_coins()
             if is_transaction_successful(money, drink['cost']):
-                makeCoffee(choice, drink['ingredients'])
+                make_coffee(choice, drink['ingredients'])
